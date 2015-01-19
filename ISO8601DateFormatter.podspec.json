@@ -10,16 +10,16 @@
     "tag": "0.7.1"
   },
   "source_files": "*.{m,h}",
-  "exclude_files":[
-    "test*.m",
-    "timetrial.m",
-    "unparse*.m",
-    "ISO8601ForCocoa/ISO8601ForCocoa{,Touch}Tests/**/*.m",
-  ],
   "requires_arc": false,
   "platforms": {
     "ios": "5.1",
     "osx": "10.7"
-  }
+  },
+  "exclude_files": [
+    "test*.m",
+    "timetrial.m",
+    "unparse*.m",
+    "ISO8601ForCocoa/ISO8601ForCocoa{,Touch}Tests/**/*.m"
+    ]
 }
 
